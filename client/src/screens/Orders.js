@@ -27,7 +27,7 @@ const Orders = () => {
     return (
 
         <div className="order__Box">
-            {!printz ? (
+            {printz ? (
                 <table>
                 <thead>
                     <tr>

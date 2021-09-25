@@ -59,3 +59,9 @@
     object-fit: cover;
     border-radius: 1rem;
 }
+
+@media (max-width:900px) {
+    .landingPage{
+        flex-direction: column;
+    }
+}

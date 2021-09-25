@@ -1,0 +1,49 @@
+
+
+.add_form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    /* width: 80% !important; */
+    padding: 5%;
+    /* background-color: red; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+  }
+  input{
+    background-color: transparent !important;
+  }
+  .textArea{
+    margin-top: 2rem !important;
+  }
+  .form-check-label{
+    color: white;
+  }
+  
+  .form_control {
+    margin: 20px 0;
+  }
+  
+  .form_control label {
+    display: block;
+  }
+  
+  .form_control input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+  }
+  .btn{
+    padding: .6rem;
+  }
+  
+  @media (max-width: 900px) {
+    .add_form{
+      width: 100%;
+    }
+  }
+ 
+ 

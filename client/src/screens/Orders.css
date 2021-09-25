@@ -1,0 +1,27 @@
+.order__Box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* background-color: red; */
+    padding: 3rem;
+}
+.order{
+    background-color: royalblue;
+    display: flex;
+}
+.order .price{
+    margin-right: 5px;
+}
+.show{
+    background-color: green;
+    display: flex;
+    /* transform: translateY(0); */
+    transition: .5s;
+}
+.nshow{
+    background-color: green;
+    display: none;
+    /* transition: .5s; */
+
+}

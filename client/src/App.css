@@ -1,0 +1,18 @@
+main{
+    padding-top: 3rem;
+}
+.footer-copy{
+    font-size: 1.3rem;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    color: black;
+    /* position: absolute; */
+    bottom: 0;
+    left: 50%;
+}
+.title{
+    color: white;
+}
+p{
+    color: black;
+}
